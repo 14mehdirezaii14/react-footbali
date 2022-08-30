@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: IRANSANS;
+  src: url(../asset/fonts/IRANSans/ttf/IRANSansWeb.ttf);
+}
+
+body,
+html {
+  direction: rtl;
+  margin: 0;
+}
+
+* {
+  font-family: IRANSANS !important;
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
