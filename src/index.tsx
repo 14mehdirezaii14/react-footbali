@@ -15,7 +15,7 @@ root.render(
   <React.StrictMode>
     <ErrorBoundary>
         <ThemeProvider attribute="class" defaultTheme="light">
-          <App />
+          <App /> 
         </ThemeProvider>
     </ErrorBoundary>
   </React.StrictMode>
